@@ -25,7 +25,7 @@ header{
 .hero {
     background-color: mediumturquoise;
     height: 70vh;
-    background-image: url(..........);
+    background-image: ;
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -58,3 +58,13 @@ header{
 }
     
 
+.bottom {
+    background-color: cadetblue;
+    height: 30vh;
+}
+
+.pic{
+    height: 50px;
+    width: 50px;
+    margin-left: 1vw;
+}
