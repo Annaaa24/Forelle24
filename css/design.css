@@ -1,74 +1,70 @@
 html, body {
     font-family: 'Raleway', sans-serif;
-    
-}
-
-
-h1,h2,h3,h3 {
     margin: 0;
+    padding: 0;
+    border: none;
+    width: 100%;
+    height: 100%;
 }
-
-body{background-color: rgb(201, 193, 193);}
-
-
-
-
-
-
-header{
-
-    color: white;
-    height: 5vh; 
+h1 {
+    font-size: 2rem;
 }
-
-
-
-
-
-.hero {
-background-color: rgb(227, 84, 129);    height: 70vh;
-  
-    background-size: cover;
-    background-position: center center;
-    position: relative;
+h2 {
+    font-size: 1.7rem;
 }
-
-
-
-.hero>h1 {
-   
+h3 {
+    font-size: 1.5rem;
+}
+h4 {
+    font-size: 1.2rem;
+}
+nav {
+    border: solid 1px black;
+    min-height: 48px;
+    max-height: 48px;
+}
+nav a {
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+nav a:hover {
+    background-color: #ddd;
+}  
+nav a.active {
+   background-color: rgb(71, 112, 201);
+   color: white;
+}
+#logo {
+    max-height: 48px;
+}
+.headline {
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px 30px;
     position: absolute;
-    left: 10vw;
-    top: 30vh;
-    color: white;
-    font-size: 40pt;
-    font-family: 'Raleway', sans-serif;
+    left: 25px;
+    top: 150px;
 }
-
-
-.hero>h2 {
-    position: absolute;
-    left: 10vw;
-    top: 40vh;
-    color: #333333;
-    font-size: 2vw;
-    font-weight: 300;
+.flexbox {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 3%;
 }
-
-    
-.frame {
-    width: 80vw;
-    margin: auto auto;
+.flexitem {
+    padding: 0px 10px 0px 10px;
 }
-    
-
-.bottom {
-    background-color: rgb(227, 84, 129);
-    height: 32vh;
+.fleximage {
+    max-width: 400px;
 }
-
-.pic{
-    height: 75px;
-    width: 75px;
-    margin-left: 1vw;
+.flexwrap {
+    flex-wrap: wrap;
+}
+.flexmargintop {
+    margin-top: 30px;
 }
