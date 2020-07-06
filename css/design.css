@@ -23,28 +23,35 @@ nav {
     min-height: 48px;
     max-height: 48px;
 }
+
+.main{
+    background-color: #d5e0e7;
+}
+
+
+
 nav a {
+   background-color: rgb(67, 64, 64);
     border-left: solid 1px black;
     border-right: solid 1px black;
     float: left;
-    color: black;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 nav a:hover {
-    background-color: #ddd;
+    background-color:rgb(135, 129, 129) ;
 }  
 nav a.active {
-   background-color: rgb(71, 112, 201);
-   color: white;
+      color: whitesmoke ;
 }
 #logo {
     max-height: 48px;
 }
 .headline {
-    background-color: white;
+    background-color: rgb(181, 173, 173);
     border-radius: 15px;
     padding: 15px 30px;
     position: absolute;
